@@ -6,9 +6,9 @@ Introduction
 
 This is a complete youtube search application where user can search any keyword to get data from youtube API. This returns a collection of search results that match the query parameters specified in the API request. 
 We have three sections in the application:
-- One is the search bar where user can write any keywords.
-- Second is the sidebar where complete fetched data will be shown in the form of list.
-- Third is the main content area where user can be able to see the selected video. By default first video will be selected.
+- First, is the search bar where user can write any keywords.
+- Second, is the sidebar where complete fetched data will be shown in the form of list.
+- Third, is the main content area where user can be able to see the selected video. By default first video will be selected.
 
 Architecture Details
 ------------
