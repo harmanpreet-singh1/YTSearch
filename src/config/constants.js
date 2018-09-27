@@ -3,7 +3,7 @@ import 'firebase/auth';
 
 // Firebase config properties.
 export const config = {
-    apiKey: "AIzaSyCVqiwXt0RsLK6C-E3Vgc4LWFLEKh66LIA",
+    apiKey: "AIzaSyCVqiwXt0RsLK6C-E3Vgc4LWFLEKh66LIA", // API key of my account. You can change if you want.
     authDomain: "signin-1537700985967.firebaseapp.com",
     databaseURL: "https://signin-1537700985967.firebaseio.com",
     projectId: "youtube-signin-1537700985967",
