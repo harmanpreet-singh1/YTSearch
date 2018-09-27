@@ -1,0 +1,39 @@
+.video-detail .details {
+   margin-top: 1.5rem;
+   padding: 1rem;
+   border: 1px solid #ddd;
+   border-radius: 4px;
+}
+
+.rate-video {
+   text-align: right;
+   margin: 0.5rem 0;
+}
+
+.yt-icon-button {
+   vertical-align: middle;
+   outline: none;
+   background: none;
+   margin: 0;
+   margin-left: 20px;
+   border: none;
+   padding: 0;
+   width: 20px;
+   height: 100%;
+   line-height: 0;
+   cursor: pointer;
+   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+   -webkit-tap-highlight-color: transparent;
+}
+
+.yt-icon-button svg {
+   fill: grey;
+}
+
+.yt-icon-button.active svg {
+   fill: blue;
+}
+
+.details p {
+   margin-top: 1rem;
+}

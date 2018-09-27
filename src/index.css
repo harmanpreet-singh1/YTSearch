@@ -1,0 +1,40 @@
+@import './components/no_result/no_result.css';
+@import './components/search_bar/search_bar.css';
+@import './components/video_list/video_list.css';
+@import './components/video_detail/video_detail.css';
+
+#loader.open {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(88, 72, 72, 0.72) url(./images/loader.svg) no-repeat center;
+  z-index: 3;
+}
+
+.error-strip {
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 1rem;
+  font-weight: 400;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 2;
+}
+.error-strip.error {
+  background-color: red;
+  padding: 0.3rem 0;
+}
+
+@media (min-width: 768px) {
+  .error-strip {
+    font-size: 1.4rem;
+  }
+  .error-strip.error {
+    padding: 0.5rem 0;
+  }
+}

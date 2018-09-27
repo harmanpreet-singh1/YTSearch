@@ -1,0 +1,104 @@
+.search-bar {
+   margin: 25px 20px;
+   text-align: center;
+   padding-bottom: 30px;
+}
+
+.search-bar input {
+   width: 100%;
+}
+
+.search-bar .search-term {
+   padding-left: 0;
+}
+
+.YT-search {
+   position: relative;
+   margin: auto;
+   width: 100%;
+}
+
+.YT-search .label {
+   position: absolute;
+   top: 8px;
+   left: 0;
+   font-size: 16px;
+   color: #9098A9;
+   font-weight: 500;
+   transform-origin: 0 0;
+   transition: all .2s ease;
+}
+
+.YT-search .border {
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   height: 2px;
+   width: 100%;
+   background: hsl(206.1, 79.3%, 52.7%);
+   transform: scaleX(0);
+   transform-origin: 0 0;
+   transition: all .15s ease;
+}
+
+.YT-search input {
+   -webkit-appearance: none;
+   width: 100%;
+   border: 0;
+   font-family: inherit;
+   padding: 10px 5px;
+   height: 40px;
+   font-size: 16px;
+   font-weight: 500;
+   border-bottom: 2px solid #C8CCD4;
+   border-radius: 0;
+   color: #223254;
+   transition: all .15s ease;
+}
+
+.YT-search input:hover {
+   background: rgba(34, 50, 84, 0.03);
+}
+
+.YT-search input:not(:placeholder-shown)+span {
+   color: #5A667F;
+   transform: translateY(-18px) scale(.75);
+}
+
+.YT-search input:focus {
+   background: none;
+   outline: none;
+}
+
+.YT-search input:focus+span {
+   color: hsl(206.1, 79.3%, 52.7%);
+   transform: translateY(-18px) scale(.75);
+}
+
+.YT-search input:focus+span+.border {
+   transform: scaleX(1);
+}
+
+.auth-btn {
+   text-align: right;
+   padding-right: 0;
+}
+
+
+.auth-btn .sign-out,
+.auth-btn .sign-in {
+   padding: 2px 3px;
+   border: none;
+   background: transparent;
+   color: hsl(206.1, 79.3%, 52.7%);
+   text-transform: uppercase;
+   font-size: 0.9rem;
+}
+
+
+@media (min-width: 768px) {
+   .auth-btn .sign-out,
+   .auth-btn .sign-in {
+      padding: 5px;
+   }
+}
