@@ -45,21 +45,27 @@ Some Examples/Screenshots
 -----------
 
 **SignIn View**
+
 ![Sign-in-view](https://i.postimg.cc/BbKGL7Qk/sign_In_View.png)
 
 **Popup View**
+
 ![Popup-view](https://i.postimg.cc/MTrWjj0M/popup_View.png)
 
 **Redirect View**
+
 ![redirect-view](https://i.postimg.cc/D0HyRb8k/new_Page_View.png)
 
 **SignOut View**
+
 ![Sign-out-view](https://i.postimg.cc/bJMhvf81/Sign_Out_View.png)
 
 **Error Msg View**
+
 ![error-view](https://i.postimg.cc/85w7X5RN/error_Msg.png)
 
 **Loader View**
+
 ![loader-view](https://i.postimg.cc/c12xxw4P/loader_View.png)
 
 
